@@ -181,7 +181,7 @@ export default function ContactPage() {
 
                 <div className="space-y-6">
                   <div className="flex gap-4">
-                    <Mail className="h-6 w-6 flex-shrink-0 text-primary" />
+                    <Mail className="h-6 w-6 shrink-0 text-primary" />
                     <div>
                       <h3 className="mb-1 font-semibold">Email</h3>
                       <p className="text-muted-foreground">info@alilm.edu</p>
@@ -190,7 +190,7 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex gap-4">
-                    <Phone className="h-6 w-6 flex-shrink-0 text-primary" />
+                    <Phone className="h-6 w-6 shrink-0 text-primary" />
                     <div>
                       <h3 className="mb-1 font-semibold">Phone</h3>
                       <p className="text-muted-foreground">+1 (234) 567-8900</p>
@@ -199,7 +199,7 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex gap-4">
-                    <MapPin className="h-6 w-6 flex-shrink-0 text-primary" />
+                    <MapPin className="h-6 w-6 shrink-0 text-primary" />
                     <div>
                       <h3 className="mb-1 font-semibold">Address</h3>
                       <p className="text-muted-foreground">123 Education Street</p>
@@ -208,7 +208,7 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex gap-4">
-                    <Clock className="h-6 w-6 flex-shrink-0 text-primary" />
+                    <Clock className="h-6 w-6 shrink-0 text-primary" />
                     <div>
                       <h3 className="mb-1 font-semibold">Business Hours</h3>
                       <p className="text-muted-foreground">Monday - Friday: 9:00 AM - 6:00 PM</p>

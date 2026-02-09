@@ -63,17 +63,17 @@ export default function Footer() {
           <div>
             <h4 className="mb-4 font-semibold">Contact Us</h4>
             <div className="flex flex-col gap-3 text-sm">
-              <a href="mailto:info@alilm.edu" className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-foreground">
+              <a href="mailto:ismailabdulazeez536@gmail.com" className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-foreground">
                 <Mail className="h-4 w-4" />
-                info@alilm.edu
+                ismailabdulazeez536@gmail.com
               </a>
               <a href="tel:+1234567890" className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-foreground">
                 <Phone className="h-4 w-4" />
-                +1 (234) 567-890
+                +234 704 759 4864
               </a>
               <div className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0" />
-                <span>123 Education St, Knowledge City</span>
+                <span>Open and Distance Learning (ODL) </span>
               </div>
             </div>
           </div>

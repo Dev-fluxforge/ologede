@@ -12,14 +12,14 @@ export default function AboutPage() {
       <main className="flex-1">
         {/* Hero Section */}
         <section 
-          className="border-b border-border bg-gradient-to-b from-primary/80 to-primary/40 py-12 md:py-16 bg-cover bg-center relative"
+          className="border-b border-border bg-linear-to-b from-primary/80 to-primary/40 py-12 md:py-16 bg-cover bg-center relative"
           style={{
             backgroundImage: 'url(/images/learning-bg.jpg)',
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/30" />
+          <div className="absolute inset-0 bg-linear-to-b from-black/50 to-black/30" />
           <div className="container mx-auto px-4 md:px-6 relative z-10">
-            <h1 className="mb-4 text-3xl font-bold md:text-4xl text-white drop-shadow-lg">About Al-Ilm Islamic Institute</h1>
+            <h1 className="mb-4 text-3xl font-bold md:text-4xl text-white drop-shadow-lg">About Daarul Falaah Islamic Institute</h1>
             <p className="text-lg text-white/90 drop-shadow">
               Empowering learners worldwide with authentic Islamic education and Arabic language instruction
             </p>
@@ -33,7 +33,7 @@ export default function AboutPage() {
               <div>
                 <h2 className="mb-4 text-2xl font-bold">Our Mission</h2>
                 <p className="mb-4 text-muted-foreground">
-                  At Al-Ilm Islamic Institute, our mission is to provide accessible, high-quality Islamic education and Arabic language instruction to students of all ages and backgrounds around the world.
+                  At Daarul Falaah Islamic Institute, our mission is to provide accessible, high-quality Islamic education and Arabic language instruction to students of all ages and backgrounds around the world.
                 </p>
                 <p className="mb-4 text-muted-foreground">
                   We believe that authentic Islamic knowledge is a treasure that should be available to everyone. Through our carefully curated courses and experienced instructors, we strive to help students develop a deep understanding of the Quran, Hadith, Arabic language, Islamic jurisprudence, and Islamic history.
@@ -100,10 +100,10 @@ export default function AboutPage() {
         {/* Why Choose Us */}
         <section className="border-b border-border py-12 md:py-16">
           <div className="container mx-auto px-4 md:px-6">
-            <h2 className="mb-12 text-2xl font-bold md:text-3xl">Why Choose Al-Ilm?</h2>
+            <h2 className="mb-12 text-2xl font-bold md:text-3xl">Why Choose Daarul'Falaah ?</h2>
             <div className="space-y-6">
               <div className="flex gap-4">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold">
                     1
                   </div>
@@ -116,7 +116,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold">
                     2
                   </div>
@@ -129,7 +129,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold">
                     3
                   </div>
@@ -142,7 +142,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold">
                     4
                   </div>
@@ -155,7 +155,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="flex gap-4">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold">
                     5
                   </div>
